@@ -34,8 +34,7 @@ class Test {
         ], new Exception('FAILED: missing_numbers([3, 7, 9, 19]) should equal [ 4, 5, 6, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18 ]'));
         return 1;  
      }
-}
-    
+}   
 if (!debug_backtrace()) {
 $tests = 0;
 $tests += Test::test_1();
